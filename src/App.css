@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/****************/
+
+.card {
+  width: 500px;
+  height: 297px;
+  box-shadow: 0px 0px 11px 3px grey;
+  margin-top: 100px;
+  margin-left: 366px;
+  border-radius: 24px;
+  background-image: url(https://image.freepik.com/vecteurs-libre/technologie-moderne-demi-teinte-fond_1409-856.jpg);
+}
+
+img {
+  width: 204px;
+  height: 143px;
+  top: 114px;
+  position: absolute;
+  left: 322px;
+}
+
+h1 {
+  position: absolute;
+  right: 543px;
+}
+
+.info {
+  position: absolute;
+  top: 211px;
+  line-height: 32px;
+  left: 465px;
+}
+
+.log {
+  position: absolute;
+  top: 261px;
+  width: 100px;
+  height: 95px;
+  left: 751px;
+}
+
+h5 {
+  position: absolute;
+  left: 206px;
+  top: 56px;
+}
+
+span {
+  position: absolute;
+  top: 131px;
+  left: -57px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.num {
+  width: 241px;
+  font-size: 25px;
+  padding-top: 26px;
+}
+
+.input {
+  display: flex;
+  width: 311px;
+  /* justify-content: center; */
+  flex-direction: column;
+  position: absolute;
+  left: 454px;
+  top: 412px;
+}
